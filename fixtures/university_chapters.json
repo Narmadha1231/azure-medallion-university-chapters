@@ -1,0 +1,8 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "spatialReference": {"wkid": 4326},
+  "features": [
+    {"attributes": {"OBJECTID": 1, "ChapterID": "CA-0355", "University_Chapter": "California Sample University Chapter", "City": "Davis", "State": "CA"}, "geometry": {"x": -121.7405, "y": 38.5449}},
+    {"attributes": {"OBJECTID": 2, "ChapterID": "CA-1001", "University_Chapter": "West Coast Analytics Chapter", "City": "Berkeley", "State": "CA"}, "geometry": {"x": -122.2585, "y": 37.8719}}
+  ]
+}
