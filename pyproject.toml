@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-medallion-university-chapters"
+version = "1.0.0"
+description = "Spark medallion data product for public university chapter data"
+requires-python = ">=3.10"
+dependencies = ["pyspark==3.5.3", "requests==2.32.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
